@@ -1,0 +1,12 @@
+{
+  "format": 2,
+  "compileOptions": {
+    "component2": true,
+    "less": {
+      "modifyVars": {
+        "theme": "default",
+        "colorPrimary": "#00C0C7"
+      }
+    }
+  }
+}

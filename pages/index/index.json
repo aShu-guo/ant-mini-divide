@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "飞行场景筛选",
+  "usingComponents": {
+    "divider": "antd-mini/less/Divider/index",
+    "dept-picker": "/components/dept-picker/dept-picker"
+  }
+}

@@ -1,0 +1,14 @@
+<view class="scene-filter-box">
+  <view class="scene-filter-item">
+      <view class="title">所属部门</view>
+      <dept-picker>
+          <view class="field-inline">
+              <text>所属部门</text>
+              <text class="main-value">
+                123
+              </text>
+          </view>
+          <divider/>
+      </dept-picker>
+  </view>
+</view>

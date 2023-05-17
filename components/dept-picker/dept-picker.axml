@@ -1,0 +1,29 @@
+<view class="dept-picker-placeholder">
+  <view class="dept-picker-placeholder-content" onTap="trigger">
+      <slot></slot>
+  </view>
+</view>
+
+<popup
+visible="{{visible}}"
+position="bottom"
+animation="{{true}}"
+zIndex="{{zIndex}}"
+className="dept-picker"
+maskClassName="{{maskClassName}}"
+destroyOnClose="{{destroyOnClose}}">
+<view class="dept-picker-header">
+  部门选择
+  <icon type="CloseOutline" className="close-icon"></icon>
+</view>
+<view class="scroll-box">
+  <scroll-view
+          scroll-y="{{true}}"
+          style="height: 200px;"
+  >
+      <view a:for="{{deptList}}" a:for-item="deptItem" class="dept-list-box">
+          <view>{{deptItem.name}}</view>
+      </view>
+  </scroll-view>
+</view>
+</popup>

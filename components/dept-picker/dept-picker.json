@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "popup": "antd-mini/less/Popup/index",
+    "button": "antd-mini/less/Button/index",
+    "icon": "antd-mini/less//Icon/index"
+  }
+}
